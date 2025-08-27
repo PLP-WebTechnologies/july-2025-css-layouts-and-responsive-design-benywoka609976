@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Layout Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="header-content">
+            <h1 class="logo">LayoutMaster</h1>
+            <p class="tagline">Responsive Web Design</p>
+        </div>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <ul class="nav-menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="nav-toggle" aria-label="Toggle navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </nav>
+
+    <!-- Main Content Area -->
+    <main class="main-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-content">
+                <h3>Quick Links</h3>
+                <ul class="sidebar-links">
+                    <li><a href="#web-design">Web Design</a></li>
+                    <li><a href="#development">Development</a></li>
+                    <li><a href="#seo">SEO Optimization</a></li>
+                    <li><a href="#ux">UX/UI Design</a></li>
+                </ul>
+                
+                <div class="sidebar-widget">
+                    <h4>Newsletter</h4>
+                    <p>Subscribe for updates</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Enter your email">
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Content Area -->
+        <section class="content-area">
+            <div class="content-grid">
+                <!-- Feature Section -->
+                <article class="feature-card">
+                    <h2>Welcome to Our Platform</h2>
+                    <p>We create responsive, accessible, and performant websites that work across all devices and screen sizes.</p>
+                </article>
+
+                <!-- Cards Section using Flexbox -->
+                <div class="cards-container">
+                    <div class="card">
+                        <h3>Web Design</h3>
+                        <p>Creating beautiful and functional user interfaces that enhance user experience.</p>
+                        <button class="card-btn">Learn More</button>
+                    </div>
+                    <div class="card">
+                        <h3>Development</h3>
+                        <p>Building robust and scalable web applications using modern technologies.</p>
+                        <button class="card-btn">Learn More</button>
+                    </div>
+                    <div class="card">
+                        <h3>SEO Optimization</h3>
+                        <p>Improving website visibility and ranking on search engines.</p>
+                        <button class="card-btn">Learn More</button>
+                    </div>
+                </div>
+
+                <!-- Grid Gallery -->
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <h4>Mobile First</h4>
+                        <p>Designing for smallest screens first</p>
+                    </div>
+                    <div class="gallery-item">
+                        <h4>Responsive</h4>
+                        <p>Adapts to all screen sizes</p>
+                    </div>
+                    <div class="gallery-item">
+                        <h4>Accessible</h4>
+                        <p>WCAG compliant design</p>
+                    </div>
+                    <div class="gallery-item">
+                        <h4>Performance</h4>
+                        <p>Fast loading times</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Contact Info</h4>
+                <p>Email: info@layoutmaster.com</p>
+                <p>Phone: (555) 123-4567</p>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <div class="social-links">
+                    <a href="#">Twitter</a>
+                    <a href="#">LinkedIn</a>
+                    <a href="#">GitHub</a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 LayoutMaster. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
